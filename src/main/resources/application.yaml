@@ -3,6 +3,12 @@ spring:
     name: cicd
   config:
     import: "aws-parameterstore:/cicd/test/"
+  ai:
+    ollama:
+      base-url: http://localhost:11434  # Ollama ka default local URL
+      chat:
+        options:
+          model: llama3
 
 management:
   endpoints:

@@ -1,0 +1,4 @@
+Sahil's company backend policy:
+1. All microservices must be built using Java 17/21 and Spring Boot 3.x.
+2. The official remote work policy allows employees to work from home on Wednesdays and Fridays.
+3. Database migrations must always be managed using Flyway.
